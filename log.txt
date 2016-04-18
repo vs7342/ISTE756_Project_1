@@ -1,0 +1,174 @@
+Logged at - March 08, 2016 02:50 pm
+DB Host Server - 
+DB User - 
+DB Name - 
+Error occured at - Array
+Error name - Connection open issue
+Error Description - SQLSTATE[HY000] [2005] Unknown MySQL server host 'dddd' (1)
+=========================================================================
+Logged at - March 08, 2016 02:53 pm
+DB Host Server - 
+DB User - 
+DB Name - 
+Error occured at - getBasicLogInfo()
+Error name - Connection open issue
+Error Description - SQLSTATE[HY000] [2005] Unknown MySQL server host 'fffff' (1)
+=========================================================================
+Logged at - March 08, 2016 08:43 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error occured at - getBasicLogInfo()
+Error name - Prepare Statement Issue
+Error Description - SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+=========================================================================
+Logged at - March 08, 2016 08:45 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error occured at - getBasicLogInfo()
+Error name - Prepare Statement Issue
+Error Description - SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+=========================================================================
+Logged at - March 08, 2016 08:45 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error occured at - getBasicLogInfo()
+Error name - Prepare Statement Issue
+Error Description - SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+=========================================================================
+Logged at - March 09, 2016 11:04 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'SalePrice' cannot be null
+=========================================================================
+Logged at - March 09, 2016 11:07 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'SalePrice' cannot be null
+=========================================================================
+Logged at - March 09, 2016 11:07 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'SalePrice' cannot be null
+=========================================================================
+Logged at - March 09, 2016 11:07 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'SalePrice' cannot be null
+=========================================================================
+Logged at - March 09, 2016 11:07 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'SalePrice' cannot be null
+=========================================================================
+Logged at - March 09, 2016 11:07 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'SalePrice' cannot be null
+=========================================================================
+Logged at - March 09, 2016 11:07 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'SalePrice' cannot be null
+=========================================================================
+Logged at - March 09, 2016 11:07 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'SalePrice' cannot be null
+=========================================================================
+Logged at - March 09, 2016 11:41 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Pid = 15' at line 1
+=========================================================================
+Logged at - March 09, 2016 11:44 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Error name - Set Data Issue
+Error Description - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Pid = 15' at line 1
+=========================================================================
+Logged at - March 09, 2016 11:45 am
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Query - UPDATE products SET  WHERE Pid = :Pid 
+Error name - Set Data Issue
+Error Description - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Pid = 15' at line 1
+=========================================================================
+Logged at - March 09, 2016 04:28 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Query - SELECT (
+			Pid, ProductName, Description, Price, Quantity, ImageName, SalePrice
+		) FROM products WHERE Pid = :Pid
+Error name - Get Data Issue
+Error Description - SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s)
+=========================================================================
+Logged at - March 09, 2016 04:28 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Query - SELECT (
+			Pid, ProductName, Description, Price, Quantity, ImageName, SalePrice
+		) FROM products WHERE Pid = :Pid
+Error name - Get Data Issue
+Error Description - SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s)
+=========================================================================
+Logged at - March 09, 2016 04:29 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Query - SELECT (
+			Pid, ProductName, Description, Price, Quantity, ImageName, SalePrice
+		) FROM products WHERE Pid = :Pid
+Error name - Get Data Issue
+Error Description - SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s)
+=========================================================================
+Logged at - March 09, 2016 06:44 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Query - INSERT INTO cart (Uid, Pid) VALUES (:Uid ,:Pid )
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-15' for key 'PRIMARY'
+=========================================================================
+Logged at - March 12, 2016 02:25 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Query - INSERT INTO products (
+			ProductName, Description, Price, Quantity, ImageName, SalePrice
+		) VALUES (:ProductName ,:Description ,:Price ,:Quantity ,:ImageName ,:SalePrice )
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ProductName' cannot be null
+=========================================================================
+Logged at - March 13, 2016 05:45 pm
+DB Host Server - localhost
+DB User - vs7342
+DB Name - vs7342
+Query - INSERT INTO cart (Uid, Pid) VALUES (:Uid ,:Pid )
+Error name - Set Data Issue
+Error Description - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Pid' cannot be null
+=========================================================================
